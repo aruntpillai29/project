@@ -145,7 +145,7 @@ nav {
 /* back ground image*/
 .bgimg{
     height: 100vh;
-	background-image:url(images/college.jpg);
+	background-image:url(/images/college.jpg);
 	background-position: center;
 	background-size: cover;
 	overflow-x: hidden;
