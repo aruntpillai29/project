@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!----heading section----->
+    <div class="heading">
+        <h1>My Library List</h1>
+    </div>
+    <!----input section----->
+    <div class="section">
+        <form class="form" action="">
+            <div class="input-section">
+                <div class="book-name">
+                    <label for="">Book Name:</label>
+                    <br>
+                    <input type="text" name="name" class="bookName" required>
+                </div>
+
+                <div class="author">
+                    <label for="">Author:</label>
+                    <br>
+                    <input type="text" name="name" class="authorName" required>
+                </div>
+
+                <div class="status">
+                    <label for="">Status:</label>
+                    <br>
+                    <select name="" id="select-option" required>
+                        <option value=""> </option>
+                        <option value="read">READ</option>
+                        <option value="not">NOT READ</option>
+                        <option value="reading">READING</option>
+                    </select>
+                </div>
+                <div class="add">
+                    <button class="add-btn" type="submit">add</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+    <!----display section----->
+    <div class="display">
+        <div class="bookD">
+            <h1>Book Name</h1>
+            <p>Harry Pottter and the Goblet of Fire</p>
+        </div>
+        <div class="authorD">
+            <h1>Author</h1>
+            <p>J K Rowling</p>
+
+
+        </div>
+        <div class="bookS">
+            <h1>Status</h1>
+            <p>READ</p>
+
+        </div>
+        <div class="dlt-btn">
+            <h1>----------</h1>
+
+            <button class="dbtn">Remove</button>
+
+        </div>
+    </div>
+
+    <!----content section-->
+
+    <script src="mainjava.js"></script>
+</body>
+
+</html>
